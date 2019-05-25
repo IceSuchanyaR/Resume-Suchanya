@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js");
 
 importScripts(
-  "/IceSuchanyaR/Resume-Suchanya.git/precache-manifest.2765baf8df2dbc6fc60e3390f6ab4ba2.js"
+  "/IceSuchanyaR/Resume-Suchanya.git/precache-manifest.44488eaa4ea93875c8973caea13b539d.js"
 );
 
 self.addEventListener('message', (event) => {
