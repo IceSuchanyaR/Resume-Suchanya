@@ -1,387 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8" />
-  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <!--
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-    crossorigin="anonymous">
-
-  <style>
-    body {
-      background: #000000fb;  
-            }
-    .App {
-      display: flex;
-      flex-direction: row;
-      background: #000000fb;
-      color: white;
-      padding-left: 30px;
-      padding-right: 30px;
-      padding-top: 30PX;
-      padding-bottom: 30PX;
-    }
-
-    .skills {
-
-      height: 25px;
-      color: white;
-    }
-
-    .text {
-      padding-left: 30px;
-
-    }
-
-    .textName {
-      padding-left: 100px;
-
-    }
-
-    .skills .language {
-      display: inline-block;
-      width: 150px;
-    }
-
-    .star {
-      display: inline-block;
-      color: #55ddfc;
-    }
-
-    .socialIcon {
-      padding: 8px;
-      color: #55ddfc;
-      font-size: 40px;
-    }
-
-    .socialIcon1 {
-      color: #55ddfc;
-      font-size: 110px;
-
-    }
-
-    .title {
-      padding-bottom: 10px;
-      border-bottom: 5px solid #55ddfc;
-    }
-
-    .App-logo {
-      width: 460px;
-      height: 370px;
-      padding-left: 120px;
-      justify-content: center;
-    }
-
-    .pig {
-      width: 150px;
-      height: 140px;
-    }
-
-    .app-left {
-      padding-left: 40px;
-      width: 45%;
-    }
-
-    .app-right {
-      padding-left: 40px;
-      width: 55%;
-    }
-
-    .flex-container {
-      display: flex;
-      justify-content: space-around;
-
-    }
-
-    @media (max-width: 768 px) {
-      .App {
-        display: flex;
-        flex-direction: column;
-      }
-    }
-
-
-    .App-header {
-      background-color: #282c34;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      font-size: calc(10px + 2vmin);
-      color: white;
-    }
-
-    .navbar {
-      align-items: center;
-      text-align: center;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      font-size: 12px;
-      letter-spacing: 5px;
-      justify-content: center;
-      background: #4d4e77fd;
-      color: white;
-    }
-
-    .App-link {
-      color: #61dafb;
-    }
-
-    .aaa {
-      padding-top: 20px;
-      padding-bottom: 20px;
-      letter-spacing: 5px;
-      background: #4d4e77fd;
-      color: white;
-    }
-
-    @keyframes App-logo-spin {
-      from {
-        transform: rotate(0deg);
-      }
-      to {
-        transform: rotate(360deg);
-      }
-    }
-  </style>
-
-</head>
-
-<body>
-  <nav class="navbar  text-cente">
-    <h1>Suchanya Roekplian </h1>
-  </nav>
- 
-  <div class="App">
-    <header class="App-header">
-    </header>
-    <br></br>
-    <div class="row">
-      <div class="col-lg-6">
-        <img src="77386.jpg" class="App-logo" alt="logo" />
-        <br></br>
-        <h1 class="textName">Suchanya Roekplian</h1>
-        <br></br>
-
-        <div class="row">
-          <div class="app-left">
-            <h3>Email </h3>
-            <h3>Address </h3>
-            <h3>Date of Birth </h3>
-            <h3>Phone </h3>
-          </div>
-          <div class="app-right">
-            <h3> suchanya.ro@gmail.com</h3>
-            <h3>LadKrabang, Bangkok </h3>
-            <h3> 10 / 10 / 39 </h3>
-            <h3> 096-7104026 </h3>
-          </div>
-        </div>
-        <br></br>
-        <div class="flex-container">
-          <a href="https://github.com/IceSuchanyaR" target="blank">
-            <i class="fa fa-github socialIcon1"></i>
-          </a>
-          <a href="https://medium.com/@icesuchanyaroekplain" target="blank">
-            <i class="fa fa-medium socialIcon1"></i>
-          </a>
-          <a href="https://www.facebook.com/icesuchanya.roekplain" target="blank">
-            <i class="fa fa-facebook-square socialIcon1"></i>
-          </a>
-        </div>
-        <br></br>
-        <h1 class="title">TECHNICAL SKILLS</h1>
-        <br></br>
-        <div class="row">
-          <h3 class="col-lg-6">JAVA</h3>
-          <div class="col-lg-6">
-            <i class="fa fa-star fa-lg socialIcon"></i>
-            <i class="fa fa-star fa-lg socialIcon"></i>
-            <i class="fa fa-star fa-lg socialIcon"></i>
-            <i class="fa fa-star fa-lg socialIcon"></i>
-            <i class="fa fa-star-o fa-lg socialIcon"></i>
-          </div>
-        </div>
-        <div class="row">
-          <br></br>
-          <h3 class="col-lg-6">HTML / CSS</h3>
-          <div class="col-lg-6">
-            <i class="fa fa-star fa-lg socialIcon"></i>
-            <i class="fa fa-star fa-lg socialIcon"></i>
-            <i class="fa fa-star fa-lg socialIcon"></i>
-            <i class="fa fa-star fa-lg socialIcon"></i>
-            <i class="fa fa-star-o fa-lg socialIcon"></i>
-          </div>
-        </div>
-        <div class="row">
-          <br></br>
-          <h3 class="col-lg-6">BOOTSTRAP</h3>
-          <div class="col-lg-6">
-            <i class="fa fa-star fa-lg socialIcon"></i>
-            <i class="fa fa-star fa-lg socialIcon"></i>
-            <i class="fa fa-star fa-lg socialIcon"></i>
-            <i class="fa fa-star fa-lg socialIcon"></i>
-            <i class="fa fa-star-o fa-lg socialIcon"></i>
-          </div>
-        </div>
-        <div class="row">
-          <br></br>
-          <h3 class="col-lg-6">JAVASCRIPT </h3>
-          <div class="col-lg-6">
-            <i class="fa fa-star fa-lg socialIcon"></i>
-            <i class="fa fa-star fa-lg socialIcon"></i>
-            <i class="fa fa-star-o fa-lg socialIcon"></i>
-            <i class="fa fa-star-o fa-lg socialIcon"></i>
-            <i class="fa fa-star-o fa-lg socialIcon"></i>
-          </div>
-        </div>
-
-        <div class="row">
-          <h3 class="col-lg-6">ORACLE</h3>
-          <div class="col-lg-6">
-            <i class="fa fa-star fa-lg socialIcon"></i>
-            <i class="fa fa-star fa-lg socialIcon"></i>
-            <i class="fa fa-star-o fa-lg socialIcon"></i>
-            <i class="fa fa-star-o fa-lg socialIcon"></i>
-            <i class="fa fa-star-o fa-lg socialIcon"></i>
-          </div>
-        </div>
-        <div class="row">
-          <h3 class="col-lg-6">MySQL</h3>
-          <div class="col-lg-6">
-            <i class="fa fa-star fa-lg socialIcon"></i>
-            <i class="fa fa-star fa-lg socialIcon"></i>
-            <i class="fa fa-star fa-lg socialIcon"></i>
-            <i class="fa fa-star-o fa-lg socialIcon"></i>
-            <i class="fa fa-star-o fa-lg socialIcon"></i>
-          </div>
-        </div>
-        <br></br>
-        <h1 class="title">LANGUAGE SKILLS</h1>
-        <br></br>
-        <div class="row">
-          <h3 class="col-lg-6">THAI (Native)</h3>
-          <div class="col-lg-6">
-            <i class="fa fa-star fa-lg socialIcon"></i>
-            <i class="fa fa-star fa-lg socialIcon"></i>
-            <i class="fa fa-star fa-lg socialIcon"></i>
-            <i class="fa fa-star fa-lg socialIcon"></i>
-            <i class="fa fa-star fa-lg socialIcon"></i>
-          </div>
-        </div>
-        <div class="row">
-          <h3 class="col-lg-6">ENGLISH</h3>
-          <div class="col-lg-6">
-            <i class="fa fa-star fa-lg socialIcon"></i>
-            <i class="fa fa-star fa-lg socialIcon"></i>
-            <i class="fa fa-star-o fa-lg socialIcon"></i>
-            <i class="fa fa-star-o fa-lg socialIcon"></i>
-            <i class="fa fa-star-o fa-lg socialIcon"></i>
-          </div>
-        </div>
-      </div>
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
    
-    <div class="col-lg-6">
-      <h1 class="title">PROFILE</h1>
-      <br></br>
-      <h3 class="text">"I study in Faculty of science in Applied Mathematics , King Mongkut's Institute of Technology Ladkrabang. I like to
-        solve problem and learn new things. I'm happy when I develop and maintain some products that can solve real problem.
-        I'm a enthusiatic and ready to work with people in the organization and be part of the team."</h3>
-      <br></br>
-      <h1 class="title">EXPERIENCE</h1>
-      <br></br>
-      <h3>INTERNSHIP</h3>
-      <br></br>
-      <h4 class="text">Internship Programmer in General Electronic Commerce Services Co. ltd </h4>
-      <br></br>
-      <ul>
-        <li>
-          <h4 class="text">Learned about Java Spring Boot</h4>
-        </li>
-        <li>
-          <h4 class="text">Learned about AngularJs</h4>
-        </li>
-        <li>
-          <h4 class="text">Learned about MySQL</h4>
-        </li>
-      </ul>
-      <br></br>
-      <h3>TUTOR</h3>
-      <br></br>
-      <ul>
-        <li>
-          <h4 class="text">Teaching mathematical logic for primary students</h4>
-        </li>
-        <li>
-          <h4 class="text">Teaching mathematical for university entrance</h4>
-        </li>
-      </ul>
-      <br></br>
-      <h3>PART-TIME JOB</h3>
-      <br></br>
-      <ul>
-        <li>
-          <h4 class="text">I had an experience working as part-time job at seven-eleven</h4>
-        </li>
-      </ul>
-      <br></br>
-      <h1 class="title">COURSES ATTENDED</h1>
-      <br></br>
-      <ul>
-        <li>
-          <h4 class="text">ReactJS By DevIncube</h4>
-        </li>
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
 
-      </ul>
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body>
+      <nav class="navbar  text-cente">
+          <h1>Suchanya Roekplian </h1>  
+        </nav>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
 
-      <br></br>
-      <h1 class="title">EDUCATION</h1>
-      <br></br>
-      <h4 class="text">Bachelor's Degree in in Applied Mathematics , King Mongkut's Institute of Technology Ladkrabang. GPA: 3.19 </h4>
-      <br></br>
-      <h1 class="title">INTERESTS</h1>
-      <br></br>
-      <div class="flex-container">
-        <div>
-          <i class="w3-container fa fa-camera socialIcon1"></i>
-          <br></br>
-          <h3> Photography </h3>
-        </div>
-        <div>
-          <i class="fa fa-plane socialIcon1"></i>
-          <br></br>
-          <h3>Travel </h3>
-        </div>
-        <div>
-          <i class="fa fa-headphones socialIcon1"></i>
-          <br></br>
-          <h3> Music</h3>
-        </div>
-        <div>
-          <i class="fa fa-paint-brush socialIcon1"></i>
-          <br></br>
-          <h3> Paint Design </h3>
-        </div>
-      </div>
-      <br></br>
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
 
-    </div>
-  </div>
-    <br></br>
-  </div>
-
-  <footer class="aaa bg-2 text-center">
-    <h2>Suchanya Roekplian </h2>
-  </footer>
-</body>
-
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+   
+    <footer class="aaa bg-2 text-center">
+      <h2>Suchanya Roekplian </h2> 
+    </footer>
+  </body>
 </html>
