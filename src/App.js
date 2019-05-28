@@ -37,7 +37,7 @@ class App extends Component {
             <a href="https://github.com/IceSuchanyaR" target="blank">
               <i class="fa fa-github socialIcon1"></i>
             </a>
-            <a href="https://medium.com/@icesuchanyaroekplain" target="blank">
+            <a href="https://medium.com/@suchanya.roekplain" target="blank">
               <i class="fa fa-medium socialIcon1"></i>
             </a>
             <a href="https://www.facebook.com/icesuchanya.roekplain" target="blank">
